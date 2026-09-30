@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1011"/>
+      <stop offset="50%" stop-color="#0e1719"/>
+      <stop offset="100%" stop-color="#070a0b"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#bg3)"/>
+
+  <!-- Window Container -->
+  <g transform="translate(60, 40)">
+    <rect width="1080" height="670" rx="12" fill="#0f1719" stroke="rgba(45,212,191,0.15)" stroke-width="1.5"/>
+
+    <!-- Window Titlebar -->
+    <rect width="1080" height="48" rx="12" fill="#131e21"/>
+    <rect y="36" width="1080" height="12" fill="#131e21"/>
+    <line x1="0" y1="48" x2="1080" y2="48" stroke="rgba(236,233,226,0.08)" stroke-width="1"/>
+
+    <circle cx="28" cy="24" r="6" fill="#ff5f56"/>
+    <circle cx="48" cy="24" r="6" fill="#ffbd2e"/>
+    <circle cx="68" cy="24" r="6" fill="#27c93f"/>
+
+    <rect x="360" y="10" width="360" height="28" rx="6" fill="#0a1012" stroke="rgba(236,233,226,0.08)"/>
+    <text x="540" y="28" fill="#8d8a83" font-family="-apple-system, system-ui, sans-serif" font-size="12" text-anchor="middle">clinic.practocare.dev/appointments</text>
+
+    <!-- Sidebar -->
+    <g transform="translate(0, 48)">
+      <rect width="220" height="622" fill="#0b1214"/>
+      <line x1="220" y1="0" x2="220" y2="622" stroke="rgba(236,233,226,0.08)"/>
+
+      <text x="24" y="38" fill="#ece9e2" font-family="-apple-system, system-ui, sans-serif" font-weight="700" font-size="15" letter-spacing="0.5">Practo Care</text>
+      <text x="24" y="56" fill="#2dd4bf" font-family="-apple-system, system-ui, sans-serif" font-size="10">MERN CLINIC PLATFORM</text>
+
+      <rect x="16" y="80" width="188" height="34" rx="6" fill="rgba(45,212,191,0.12)" stroke="rgba(45,212,191,0.3)"/>
+      <text x="36" y="102" fill="#2dd4bf" font-family="-apple-system, system-ui, sans-serif" font-weight="600" font-size="12">Patient Consultations</text>
+
+      <text x="36" y="146" fill="#8d8a83" font-family="-apple-system, system-ui, sans-serif" font-size="12">Doctor Schedule Grid</text>
+      <text x="36" y="186" fill="#8d8a83" font-family="-apple-system, system-ui, sans-serif" font-size="12">Digital Prescriptions</text>
+      <text x="36" y="226" fill="#8d8a83" font-family="-apple-system, system-ui, sans-serif" font-size="12">Medicine Inventory</text>
+      <text x="36" y="266" fill="#8d8a83" font-family="-apple-system, system-ui, sans-serif" font-size="12">JWT &amp; RBAC Security</text>
+    </g>
+
+    <!-- Main Content Area -->
+    <g transform="translate(250, 72)">
+      <text x="0" y="24" fill="#ece9e2" font-family="-apple-system, system-ui, sans-serif" font-weight="800" font-size="22">Clinic Operating System &amp; Records</text>
+      <text x="0" y="46" fill="#8d8a83" font-family="-apple-system, system-ui, sans-serif" font-size="13">Solo-architected full-stack MERN engine for healthcare providers</text>
+
+      <g transform="translate(0, 68)">
+        <rect width="245" height="96" rx="8" fill="#142124" stroke="rgba(45,212,191,0.12)"/>
+        <text x="18" y="30" fill="#8d8a83" font-family="-apple-system, system-ui, sans-serif" font-size="11" text-transform="uppercase">Daily Consultations</text>
+        <text x="18" y="64" fill="#2dd4bf" font-family="-apple-system, system-ui, sans-serif" font-weight="800" font-size="26">48 Patients</text>
+        <text x="18" y="84" fill="#769e84" font-family="-apple-system, system-ui, sans-serif" font-size="11">Zero slot collisions</text>
+
+        <rect x="265" width="245" height="96" rx="8" fill="#142124" stroke="rgba(45,212,191,0.12)"/>
+        <text x="283" y="30" fill="#8d8a83" font-family="-apple-system, system-ui, sans-serif" font-size="11" text-transform="uppercase">Inventory Stock Status</text>
+        <text x="283" y="64" fill="#ece9e2" font-family="-apple-system, system-ui, sans-serif" font-weight="800" font-size="26">99.4% Stocked</text>
+        <text x="283" y="84" fill="#769e84" font-family="-apple-system, system-ui, sans-serif" font-size="11">Auto low-stock alerts</text>
+
+        <rect x="530" width="265" height="96" rx="8" fill="#142124" stroke="rgba(45,212,191,0.12)"/>
+        <text x="548" y="30" fill="#8d8a83" font-family="-apple-system, system-ui, sans-serif" font-size="11" text-transform="uppercase">Database Architecture</text>
+        <text x="548" y="64" fill="#ece9e2" font-family="-apple-system, system-ui, sans-serif" font-weight="800" font-size="26">MongoDB Schema</text>
+        <text x="548" y="84" fill="#8d8a83" font-family="-apple-system, system-ui, sans-serif" font-size="11">Indexed queries &lt; 25ms</text>
+      </g>
+
+      <!-- Calendar / Queue Grid -->
+      <g transform="translate(0, 186)">
+        <rect width="795" height="385" rx="8" fill="#142124" stroke="rgba(236,233,226,0.08)"/>
+        <text x="24" y="32" fill="#ece9e2" font-family="-apple-system, system-ui, sans-serif" font-weight="700" font-size="14">Today's Appointment Schedule &amp; Triage</text>
+
+        <line x1="24" y1="52" x2="770" y2="52" stroke="rgba(236,233,226,0.08)"/>
+
+        <!-- Row 1 -->
+        <text x="32" y="84" fill="#2dd4bf" font-family="-apple-system, system-ui, sans-serif" font-weight="700" font-size="13">10:00 AM</text>
+        <text x="120" y="84" fill="#ece9e2" font-family="-apple-system, system-ui, sans-serif" font-weight="600" font-size="13">Rahul Sharma (Follow-up)</text>
+        <text x="420" y="84" fill="#8d8a83" font-family="-apple-system, system-ui, sans-serif" font-size="12">Dr. V. Kulkarni · Cardiology</text>
+        <rect x="680" y="68" width="70" height="22" rx="4" fill="rgba(118,158,132,0.15)"/>
+        <text x="715" y="83" fill="#769e84" font-family="-apple-system, system-ui, sans-serif" font-size="11" text-anchor="middle">Completed</text>
+
+        <line x1="24" y1="104" x2="770" y2="104" stroke="rgba(236,233,226,0.05)"/>
+
+        <!-- Row 2 -->
+        <text x="32" y="136" fill="#2dd4bf" font-family="-apple-system, system-ui, sans-serif" font-weight="700" font-size="13">11:15 AM</text>
+        <text x="120" y="136" fill="#ece9e2" font-family="-apple-system, system-ui, sans-serif" font-weight="600" font-size="13">Ananya Deshmukh (New Patient)</text>
+        <text x="420" y="136" fill="#8d8a83" font-family="-apple-system, system-ui, sans-serif" font-size="12">Dr. P. Nair · General Practice</text>
+        <rect x="680" y="120" width="70" height="22" rx="4" fill="rgba(45,212,191,0.15)"/>
+        <text x="715" y="135" fill="#2dd4bf" font-family="-apple-system, system-ui, sans-serif" font-size="11" text-anchor="middle">In Session</text>
+
+        <line x1="24" y1="156" x2="770" y2="156" stroke="rgba(236,233,226,0.05)"/>
+
+        <!-- Row 3 -->
+        <text x="32" y="188" fill="#8d8a83" font-family="-apple-system, system-ui, sans-serif" font-weight="700" font-size="13">12:30 PM</text>
+        <text x="120" y="188" fill="#ece9e2" font-family="-apple-system, system-ui, sans-serif" font-weight="600" font-size="13">Vikram Malhotra (Routine Check)</text>
+        <text x="420" y="188" fill="#8d8a83" font-family="-apple-system, system-ui, sans-serif" font-size="12">Dr. V. Kulkarni · Cardiology</text>
+        <rect x="680" y="172" width="70" height="22" rx="4" fill="rgba(236,233,226,0.08)"/>
+        <text x="715" y="187" fill="#8d8a83" font-family="-apple-system, system-ui, sans-serif" font-size="11" text-anchor="middle">Confirmed</text>
+
+        <!-- Code Architecture Sneak Peek -->
+        <g transform="translate(24, 230)">
+          <rect width="746" height="130" rx="6" fill="#0b1214" stroke="rgba(236,233,226,0.06)"/>
+          <text x="20" y="28" fill="#8d8a83" font-family="monospace" font-size="11">// MERN GraphQL Resolver Endpoint</text>
+          <text x="20" y="52" fill="#2dd4bf" font-family="monospace" font-size="12">async appointmentBook({ patientId, doctorId, slotTime }, context) {</text>
+          <text x="40" y="74" fill="#ece9e2" font-family="monospace" font-size="12">  const conflict = await Appointment.find({ doctorId, slotTime, status: 'BOOKED' });</text>
+          <text x="40" y="96" fill="#ece9e2" font-family="monospace" font-size="12">  if (conflict.length) throw new UserInputError('Slot collision detected');</text>
+          <text x="20" y="118" fill="#2dd4bf" font-family="monospace" font-size="12">}</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
